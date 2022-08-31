@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Vending_Machine.jpg
+image: img/vote.jpg
 title: "Voter Registration Application"
 date: 2022-08-30
 published: true
