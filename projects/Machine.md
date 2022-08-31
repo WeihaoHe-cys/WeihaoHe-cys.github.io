@@ -10,11 +10,6 @@ labels:
 summary: "Used to implement into a vending machine to add the food objects, set the item price, remove items, output the list of items purchased and the price."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
 Vending Machin algorithms would creatd a list and adding the nodes to the list.
 It would display the the menus first, and receive inputs from users.
