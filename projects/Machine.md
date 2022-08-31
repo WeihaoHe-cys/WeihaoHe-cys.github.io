@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Vending_Machine.jpg
 title: "Vending Machine"
 date: 2022-08-30
 published: true
@@ -61,4 +61,3 @@ Here is some code that illustrates how the program read values:
 
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
