@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Vending_Machine.jpg
+image: img/spam_musubi.jpg
 title: "Recipe converter"
 date: 2022-08-30
 published: true
