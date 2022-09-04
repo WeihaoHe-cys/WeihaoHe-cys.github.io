@@ -13,8 +13,8 @@ labels:
 
 
 ## Considerations before and when asking the question. 
-In my perspective, there is a stupid question. Conversely, there is a question to be considered smart. Before soliciting answers from experts, there are a few crucial things to keep in mind.
-The first question is Did you do your own research before asking? Being able to do our own research is the very initial step to crafting a smart question. With our search engines like google, we can 
+In my perspective, there is a stupid question. Before soliciting answers from experts, there are a few crucial things to keep in mind.
+The first question is, Did you do your own research before asking? Research the answer is the initial step to crafting a smart question. With our search engines like google, we can 
 find most of the answers online before seeking answers from a senior person at work. If the questions we asked are within the google search result, or even manuals, such questions
 will be perceived as a stupid questions. It proves your lack of initiative, capability, and ignorance. Why? Because if the answer can be easily found, instead of looking for it ourselves, why
 ask a person who is bombarded with a myriad load of work? Their time is often considered more valuable than the newbies. We could argue, but it is an undeniable fact. They might even think hiring you to join
