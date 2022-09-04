@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Make your questions be taken seriously"
+title: "What is a smart question"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: true
@@ -11,7 +11,6 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
 ## Considerations before and when asking the question. 
 In my perspective, there is a stupid question. Conversely, there is a question to be considered smart. Before soliciting answers from experts, there are a few crucial things to keep in mind.
