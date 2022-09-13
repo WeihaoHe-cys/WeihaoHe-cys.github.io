@@ -8,7 +8,7 @@ published: true
 labels:
   - JavaScript
   - HTML
-summary: "I developed this website with JavaScript and HTML to convert amount of materials needed to make the spam musubi based on the quantity needed"
+summary: "I developed this website with JavaScript and HTML to convert amount of materials needed to make the spam musubi based on the quantity needed."
 ---
 
 With the quantity changes, materials quantity will adjust accordingly. 
@@ -94,3 +94,4 @@ riceElements.addEventListener("change", function() {
     canSpamElements.value = newRatio * originalCanSpam;
   }
 })
+```
