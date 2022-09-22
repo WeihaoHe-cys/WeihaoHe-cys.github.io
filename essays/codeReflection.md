@@ -11,7 +11,7 @@ labels:
   - coding standard
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/standard.png">
 
 I discussed the coding standard with my peers when I first began to learn programming. I used to think the standard is a hassle and unnecessary to implement. 
 However, that was the beginning phase of learning how to code. When my codes are less than 20 lines. As things advanced, the line of codes increased to hundreds and separated into different files for classes. 
