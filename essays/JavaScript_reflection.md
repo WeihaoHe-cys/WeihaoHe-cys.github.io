@@ -4,7 +4,7 @@ type: essay
 title: "JavaScript Reflection"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-31
-published: true
+published: false
 labels:
   - Software Engineering
   - Learning
