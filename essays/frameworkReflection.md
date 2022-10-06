@@ -11,7 +11,8 @@ labels:
   - Bootstrap 5
 ---
 
-
+<img width="300px" class="rounded float-start pe-4" src="../img/rawHTMLCSS.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/bootstrapWeb.jpg">
 ## Difference between designing framework with RAW CSS and Bootstrap 5.
 After a week of learning the basics of HTML and CSS, the complexity of web development is beyond my imagination. 
 I used to think the use of raw HTML and CSS is simple. We only need different tags and contents. 
@@ -25,5 +26,3 @@ The time and energy invested into learning raw HTML and CSS are not as rewarding
 The second picture implemented bootstrap. Both projects invested the same amount of time to compose the website. 
 As you can see, the second website is much neater and has elements properly positioned. Frankly, the second website was much more fun to make compared to the first website.  
 
-<img width="300px" class="rounded float-start pe-4" src="../img/rawHTMLCSS.jpg">
-<img width="300px" class="rounded float-start pe-4" src="../img/bootstrapWeb.jpg">
