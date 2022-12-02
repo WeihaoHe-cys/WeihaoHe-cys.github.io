@@ -11,7 +11,7 @@ labels:
   - Design Pattern
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/1.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/1.PNG">
 
 ## There is a solution that solves many problems during the development process.
 We noticed some problems arise in the application numerous times. It will be redundant to solve the reoccurrence every time. 
