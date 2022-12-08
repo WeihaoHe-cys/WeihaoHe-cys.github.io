@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/spam_musubi.jpg
+image: img/uh.jpg
 title: "UH Broadcast"
 date: 2022-12-13
 published: true
