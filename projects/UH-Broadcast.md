@@ -16,8 +16,5 @@ summary: "I developed this website with JavaScript and HTML to convert amount of
 
 With the quantity changes, materials quantity will adjust accordingly. 
 
-Here is some code that illustrates how the program read values:
 
-```cpp
-
-```
+Source Code: <a href="https://github.com/UH-Broadcast/BroadcastHosting"><i class="large github icon "></i>UH-Broadcast</a>
