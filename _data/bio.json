@@ -10,7 +10,7 @@
     "location": { "address": "", "1611 keeamuku st": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "WeihaoHe-cys", "url": "https://github.com/WeihaoHe-cys" },
-      { "network": "linkedin", "username": "Weihao He", "url": "www.linkedin.com/in/weihao-he-0a66b6249" }
+      { "network": "linkedin", "username": "Weihao He", "url": "https://linkedin.com/in/weihao-he-0a66b6249" }
     ]
   },
   "interests": [
@@ -42,27 +42,27 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Navy",
+      "position": "Logistic representative",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2018-01-23",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Audit and approve/disapprove Defense Personal Property System (DPS) invoices",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Manage shipments of Storage-In-Transit (SIT)/Non-Temporary Storage (NTS)",
+        "Publication (NAVSUP P490), and move.mil for transportation guidance"
       ]
     },
     {
       "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "position": "Cybersecurity Training",
+      "website": "",
+      "startDate": "2021-09-01",
+      "endDate": "2022-12-03",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Basics of Linux and scripting",
+        "Drone security project"
       ]
     }
   ],
