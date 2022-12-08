@@ -10,7 +10,7 @@ labels:
   - HTML
 summary: "I developed this website with JavaScript and HTML to record Hawaii voter's information"
 ---
-<img width="300px" class="rounded float-start pe-4" src="../img/voter.jpg">
+<img width="600px" class="rounded float-start pe-4" src="../img/voter.jpg">
 
  1) The State ID number,first and last name, date of birth, mailing address, state, city, zip is not blank.
  2) Make sure the State ID number, zipcode, and phone number is correctly entered.
