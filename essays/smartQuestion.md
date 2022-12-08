@@ -10,7 +10,7 @@ labels:
   - Answers
   - StackOverflow
 ---
-
+<img width="300px" class="rounded float-start pe-4" src="../img/smart.png">
 
 ## Considerations before and when asking the question. 
 In my perspective, there is a stupid question. Before soliciting answers from experts, there are a few crucial things to keep in mind.
