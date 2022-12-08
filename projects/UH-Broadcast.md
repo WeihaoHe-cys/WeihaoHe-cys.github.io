@@ -13,6 +13,7 @@ labels:
   - Meteor
 summary: "UH-Broadcast is an example web application that provides pages to view and post listings of various items for the UH community."
 ---
+<img width="400px" class="rounded float-start pe-4" src="../img">
 
 UH-Broadcast is an example web application that provides pages to view and post listings of various items for the UH community. The problem: UHM students have a “rapid” churn rate in goods and services. Students leave the dorm for an on-campus apartment and need to get rid of dorm-specific stuff and acquire apartment-specific stuff. Students graduate and need to get rid of stuff because they’re moving off-island. There is therefore a tremendous amount of “campus-specific” goods and services that could be more effectively recycled and reused if there was an effective marketplace for these specific kinds of items.
 
