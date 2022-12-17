@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Vending Machine | He Weihao | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/WeihaoHe-cys.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="He Weihao | Professional Portfolio">
+    <meta property="og:url" content="https://heweihao.github.io/projects/machine.html">
+    <meta property="og:title" content="Vending Machine | He Weihao | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/WeihaoHe-cys.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Vending Machine | He Weihao | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Weihao He</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Vending Machine</h1>
+ <p>Vending Machin algorithms would creatd a list and adding the nodes to the list.
+It would display the the menus first, and receive inputs from users.
+When adding the item, program receive the name, price, calories etc. Then it creates the food node and adding it to the list.
+It will check if the node already exist in the list first before adding the item.</p>
+
+<p>Here is some code that illustrates how the program read values:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="k">public</span> <span class="n">boolean</span> <span class="nf">checkBarcode</span><span class="p">(</span><span class="kt">int</span> <span class="n">barcode</span><span class="p">){</span>
+      <span class="n">SNode</span> <span class="n">cursor</span> <span class="o">=</span> <span class="n">front</span><span class="p">;</span> <span class="c1">//create cursor referencing the front</span>
+   
+      <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">sizeCount</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span><span class="c1">//for loop to check for each nodes in the list</span>
+         <span class="k">if</span><span class="p">(</span><span class="n">cursor</span><span class="p">.</span><span class="n">getSnack</span><span class="p">().</span><span class="n">getBarcode</span><span class="p">()</span> <span class="o">==</span> <span class="n">barcode</span><span class="p">)</span> <span class="p">{</span> <span class="c1">//node - snack - barcode </span>
+            <span class="k">return</span> <span class="nb">true</span><span class="p">;</span> <span class="c1">// if the barcode match, return true</span>
+         <span class="p">}</span>
+         <span class="k">else</span><span class="p">{</span>
+            <span class="n">cursor</span> <span class="o">=</span> <span class="n">cursor</span><span class="p">.</span><span class="n">getNext</span><span class="p">();</span> <span class="c1">//make the cursor pointing at the next node if barcode not matching</span>
+         <span class="p">}</span>
+      <span class="p">}</span>    
+      <span class="k">return</span> <span class="nb">false</span><span class="p">;</span> <span class="c1">// loop through the list, if no matching barcode found, return false</span>
+   <span class="p">}</span>
+   
+    <span class="cm">/** method to add new nodes in the list
+     * @para          Snack object
+     **/</span>
+   <span class="k">public</span> <span class="kt">void</span> <span class="n">add</span><span class="p">(</span><span class="n">Snack</span> <span class="n">snack</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">SNode</span> <span class="n">n</span> <span class="o">=</span> <span class="k">new</span> <span class="n">SNode</span><span class="p">(</span><span class="n">snack</span><span class="p">);</span> <span class="c1">// make a node</span>
+      
+      <span class="c1">// if list is empty </span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">sizeCount</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+         <span class="n">front</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+         <span class="n">back</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+         <span class="n">sizeCount</span><span class="o">++</span><span class="p">;</span>
+      <span class="p">}</span> 
+      
+      <span class="c1">// if list is populated, point previous node to new node, assign new node to last</span>
+      <span class="k">else</span> <span class="p">{</span>
+         <span class="n">back</span><span class="p">.</span><span class="n">setNext</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">//front stay at its position back move to the next node added</span>
+         <span class="n">back</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+         <span class="n">sizeCount</span><span class="o">++</span><span class="p">;</span> <span class="c1">// incrementing the size of the list       </span>
+      <span class="p">}</span>
+   <span class="p">}</span>
+
+</code></pre></div></div>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

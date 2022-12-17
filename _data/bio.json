@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Weihao He",
+    "label": "Student",
+    "picture": "https://github.com/WeihaoHe-cys.png",
+    "email": "heweihao@hawaii.edu",
+    "phone": "808-691-0365",
+    "website": "https://WeihaoHe-cys.github.io",
+    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2023.",
+    "location": { "address": "", "1611 keeamuku st": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "WeihaoHe-cys", "url": "https://github.com/WeihaoHe-cys" },
+      { "network": "linkedin", "username": "Weihao He", "url": "https://linkedin.com/in/weihao-he-0a66b6249" }
+    ]
+  },
+  "interests": [
+    { "name": "Cybersecurity" },
+    { "name": "Software engineering" },
+    { "name": "Topics in algorithms" },
+    { "name": "Database" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "JavaScript", "Linux", "Java", "HTML", "CSS", "React-BootStrap", "Python" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Kali", "Ubuntu", "Git/GitHub"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2023)",
+      "studyType": "B.A.",
+      "startDate": "2019-01-03",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Navy",
+      "position": "Logistic representative",
+      "website": "",
+      "startDate": "2018-01-23",
+      "endDate": "Present",
+      "summary": "Audit and approve/disapprove Defense Personal Property System (DPS) invoices",
+      "highlights": [
+        "Manage shipments of Storage-In-Transit (SIT)/Non-Temporary Storage (NTS)",
+        "Publication (NAVSUP P490), and move.mil for transportation guidance"
+      ]
+    },
+    {
+      "company": "UH Information Technology Services",
+      "position": "Cybersecurity Training",
+      "website": "",
+      "startDate": "2021-09-01",
+      "endDate": "2022-12-03",
+      "summary": "",
+      "highlights": [
+        "Basics of Linux and scripting",
+        "Drone security project"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "SFS Scholarship",
+      "date": "2021-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to Juniors and Seniors continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    },
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
